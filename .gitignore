@@ -1,18 +1,41 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+#IntelliJ IDEA
+.idea
 
-# Other files and folders
-.settings/
+# VS Code
+.vscode/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+.svn
+.git
+node_modules/
+dist/
+wwwroot/
+build/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# idea中的配置
+.svn/
+.idea/
+.DS_Store
+
+# 排除所有.开头的隐藏文件
+.*
+
+# Next.js build output
+.next
+out
+
+# Optional npm cache directory
+.npm
+
+# Nuxt.js build / generate output
+.nuxt
+
+
+# vuepress build output
+.vuepress/dist
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*

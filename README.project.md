@@ -1,5 +1,7 @@
 # 项目名称
 
+模板版本：v0.0.1
+
 ## 项目描述
 
 ## 项目目录结构
@@ -15,30 +17,51 @@
     └── vue.config.js             -- 配置文件 **不允许**私自修改
 ```
 ## 环境
-## Project setup
+- 配置hosts
 ```
-npm install
-```
+host文件位置：
+mac：sudo vim /etc/hosts
 
-### Compiles and hot-reloads for development
-```
-npm run dev
-```
+windows：c:\windows\system32\drivers\etc
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your tests
+    #FE localtion  environment
+    127.0.0.1 mock.local.fe.cn
+    127.0.0.1 dev.local.fe.cn 
+    127.0.0.1 test.local.fe.cn
+    127.0.0.1 sit.local.fe.cn
+    127.0.0.1 uat.local.fe.cn
+    127.0.0.1 pre.local.fe.cn 
+    
 ```
-npm run test
-```
+- Project setup
+  ```
+  npm install
+  ```
+- Compiles and hot-reloads for mock
+  ```
+  npm run mock
+  ```
+  
+- Compiles and hot-reloads for development
+  ```
+  npm run dev
+  ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Compiles and minifies for production
+  ```
+  npm run build
+  ```
+
+- Run your tests
+  ```
+  npm run test
+  ```
+
+- Lints and fixes files
+  ```
+  npm run lint
+  ```
 
 - 搭建
   ```
@@ -57,11 +80,18 @@ npm run lint
 
 
 - 测试环境
+  - test
+    - 测试地址
+    - 测试数据
   - sit
     - 测试地址
     - 测试数据
   - uat
+    - 测试地址
+    - 测试数据
   - pre
+    - 测试地址
+    - 测试数据
 
 - 生产环境
 

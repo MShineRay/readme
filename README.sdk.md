@@ -1,5 +1,7 @@
 # 项目名称
 
+模板版本：v0.0.1
+
 ## 项目描述
 
 ## 项目目录结构
@@ -15,30 +17,30 @@
     └── vue.config.js             -- 配置文件 **不允许**私自修改
 ```
 ## 环境
-## Project setup
-```
-npm install
-```
+- Project setup
+  ```
+  npm install
+  ```
 
-### Compiles and hot-reloads for development
-```
-npm run dev
-```
+- Compiles and hot-reloads for development
+  ```
+  npm run dev
+  ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Compiles and minifies for production
+  ```
+  npm run build
+  ```
 
-### Run your tests
-```
-npm run test
-```
+- Run your tests
+  ```
+  npm run test
+  ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Lints and fixes files
+  ```
+  npm run lint
+  ```
 
 - 搭建
   ```
